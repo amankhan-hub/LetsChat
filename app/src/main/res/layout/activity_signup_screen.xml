@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:card_view="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".Signup_Screen"
+android:gravity="center"
+    android:background="@color/purple"
+>
+
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/customer_edittext"
+    android:layout_margin="30dp"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="24dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign up"
+            android:textSize="35sp"
+            android:textColor="@color/purple"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/uploadimage"
+            app:civ_border_color="@color/purple"
+            app:civ_border_width="4dp"
+            android:id="@+id/uploadimage"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customer_edittext"
+            android:drawableLeft="@drawable/name"
+            android:hint="@string/name"
+            android:padding="8dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/cardview_dark_background"
+            android:id="@+id/name"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customer_edittext"
+            android:drawableLeft="@drawable/phone"
+            android:hint="@string/phone"
+            android:padding="8dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/cardview_dark_background"
+            android:id="@+id/phone"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customer_edittext"
+            android:drawableLeft="@drawable/personimg"
+            android:hint="@string/email"
+            android:padding="8dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/cardview_dark_background"
+            android:id="@+id/users"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customer_edittext"
+            android:drawableLeft="@drawable/passwordimg"
+            android:hint="@string/password"
+            android:padding="8dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/cardview_dark_background"
+            android:id="@+id/passs"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/signupl"
+            android:textStyle="bold"
+            android:backgroundTint="@color/purple"
+            android:id="@+id/signups"
+            />
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/already_a_user"
+    android:gravity="center"
+    android:textColor="@color/white"
+    android:textStyle="bold"/>
+
+<Button
+    android:layout_width="290dp"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/white"
+    android:text="@string/login"
+    android:textStyle="bold"
+    android:layout_marginTop="5dp"
+    android:textColor="@color/purple"
+    android:id="@+id/btnlogins"
+    />
+
+
+
+</LinearLayout>

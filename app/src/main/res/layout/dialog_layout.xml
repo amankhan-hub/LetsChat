@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="330dp"
+    android:layout_height="230dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_margin="13dp"
+    android:background="@drawable/shape_dialog"
+    >
+
+    <ImageView
+        android:id="@+id/logoutdialog"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/logout"
+        android:layout_gravity="center"
+        android:layout_margin="13dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/do_you_really_want_to_n_logout"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_margin="8dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="25dp"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/purple"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/yes"
+            android:textStyle="bold"
+            android:id="@+id/yeslogout"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/purple"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/no"
+            android:textStyle="bold"
+            android:id="@+id/nologout"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Message"
+        android:title="Chats"
+        android:icon="@drawable/chat"/>
+    <item
+        android:id="@+id/status"
+        android:title="Camera"
+        android:icon="@drawable/cam"
+
+        />
+    <item
+        android:id="@+id/Chats"
+        android:title="Users Info"
+        android:icon="@drawable/info"
+        />
+    <item
+        android:id="@+id/Setting"
+        android:title="Setting"
+        android:icon="@drawable/setting"
+        />
+
+</menu>

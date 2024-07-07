@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="7dp"
+    android:background="@drawable/bordermain">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/uploadimage"
+            app:civ_border_color="@color/darkpurple"
+            app:civ_border_width="4dp"
+            android:id="@+id/uploadimage"
+            android:layout_margin="5dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="@color/darkpurple"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:id="@+id/uname"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:textColor="@color/darkpurple"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:id="@+id/status"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="@color/darkpurple"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:id="@+id/email"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone"
+                android:textColor="@color/darkpurple"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:id="@+id/phone"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

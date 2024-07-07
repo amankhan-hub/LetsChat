@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Letschat</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="not_a_user">Not a user?</string>
+    <string name="signup">Signup</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="signupl">Signup</string>
+    <string name="already_a_user">already a user</string>
+    <string name="letschat">LetsChat</string>
+    <string name="email">Email</string>
+    <string name="do_you_really_want_to_n_logout">Do you really want to\n Logout</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="type_the_messages">Type the messages...</string>
+    <string name="aman_khan">Aman Khan</string>
+    <string name="type_the_message">Type the messages...</string>
+    <string name="update_status">Update Status</string>
+    <string name="update_name">Update Name</string>
+    <string name="users_information">Users Information</string>
+    <string name="appid">ca-app-pub-2288565702712729~7424284477</string>
+    <string name="appinstantid">ca-app-pub-2288565702712729/7444465778</string>
+    <string name="appbannerid">ca-app-pub-2288565702712729/3691889185</string>
+</resources>
